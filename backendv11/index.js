@@ -15,7 +15,7 @@ const paymentRoutes = require("./routes/payment");
 var serviceAccount = require("./utils/serviceAccountKey.json");
 const { addMessage } = require("./controller/messageController");
 
-const port = 80;
+const port = 8080;
 const app = express();
 
 app.use(cors());
